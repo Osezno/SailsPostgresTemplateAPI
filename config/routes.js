@@ -38,7 +38,9 @@ module.exports.routes = {
   * not match any of those, it is matched against static assets.             *
   *                                                                          *
   ***************************************************************************/
-
+  'POST  /api/v1/create-input': { action: 'create-input' },
+  'GET   /api/v1/read-inputs': { action: 'read-inputs' }
+// si esta en una carpeta agregar { action: 'carpeta/read-inputs' }
 
   //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
