@@ -6,6 +6,7 @@
  */
 
 module.exports = {
+  //connection : 'postgres',
 
   attributes: {
     mensaje:{
